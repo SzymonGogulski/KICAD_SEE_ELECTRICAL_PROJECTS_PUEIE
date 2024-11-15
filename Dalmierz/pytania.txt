@@ -1,0 +1,24 @@
+1. Co to TP w dokumentacji?
+	-test point, nie potrzebne w projekcie
+2. Co to za strzałka przy wejściach komponentów?
+	-forma zapisu sygnału, w kiCad nie istotne
+3. Dlaczego RP2040 ma 6 pinów IOVDD i 2 piny DVDD?
+	-Nie jest to błędem, przy każdym wejściu dodajemy kondensator w celu redukcji szumów.
+4. W kicad nie ma zasilania VSYS.
+	-sam narysuj symbol
+5. Co to AGND?
+	-w teorii to samo co GND, niby są zwarte, doczytaj jeszcze.
+6. Co zrobić gdy dokumentacja RPi Pico nie zgadza się z elementami w Kicad? na przykład nie pasują nazwy pinów?
+	-najlepiej kierować się oficjalnymi datasheetami komponentów.
+7. XIN XOUT jak podłączyć do do RP2040?
+	- są to wejścia oscylatora kwarcowego.
+8. Czemu oscylator w dokumentacji ma 4 wyprowadzenia zamiast 2?
+	-możemy użyć oscylatora z 2 wyprowadzeniami, o tym samym taktowaniu.
+9. Co to za rezystor no-fit?
+	-jest to przerwa w schemacie elektrycznym.
+10. Czy w złączu usb potrzebna jest zasilanie jeżeli chcemy przez nie tylko programować a nie zasilać płytkę?
+	-jeżeli zasilamy całość układu z ogniwa to nie podłączamy usb do zasilania, tylko linie sygnałowe i GND.
+11. Dlaczego usb ma 6 shieldów?
+	-jest to kwestia konstrukcyjna, wszystkie zwieramy do GND.
+12. Czy łączyć wszystkie czujniki do jednej magistrali?
+	-Obojętne, przy I2C zróbmy wszystkie do jednej. SPI jest niby lepsze, ale I2C łatwiej połączyć.
