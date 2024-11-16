@@ -22,3 +22,5 @@
 	-jest to kwestia konstrukcyjna, wszystkie zwieramy do GND.
 12. Czy łączyć wszystkie czujniki do jednej magistrali?
 	-Obojętne, przy I2C zróbmy wszystkie do jednej. SPI jest niby lepsze, ale I2C łatwiej połączyć.
+13. Po co jest ID w usb?
+	-wydaje mi się, że mieliśmy je zignorować, ale nie pamiętam dokładnie. 
