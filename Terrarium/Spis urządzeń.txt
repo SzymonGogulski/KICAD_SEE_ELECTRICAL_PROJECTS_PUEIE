@@ -1,0 +1,7 @@
+Sterownik PLC: Siemens S7-1200 6ES7 215-1HG31-0XB0
+Panel HMI: Siemens Simatic KTP400 6AV2123-2DB03-0AX0
+Lampa dzienna: Exo Terra Ceramic Heat Emitter 50W PT2044 wkręcony w PT2060
+Lampa nocna: Exo Terra Night Heat Lamp 25W PT2122 wkręcony w PT2060
+Oświetlenie terrarium: Exo Terra Reptile UVB Nano 9W PT2366 wkręcony w PT2364
+Sensor temperatury: układ z LM35DZ
+Zasilacz impulsowy 230V AC / 24V DC: AST-PWR-7524
