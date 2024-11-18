@@ -3,5 +3,6 @@ Panel HMI: Siemens Simatic KTP400 6AV2123-2DB03-0AX0
 Lampa dzienna: Exo Terra Ceramic Heat Emitter 50W PT2044 wkręcony w PT2060
 Lampa nocna: Exo Terra Night Heat Lamp 25W PT2122 wkręcony w PT2060
 Oświetlenie terrarium: Exo Terra Reptile UVB Nano 9W PT2366 wkręcony w PT2364
-Sensor temperatury: układ z LM35DZ
+Nawiłżenie: Exo Terra Fogger Ultrasonic Fog Generator PT2080
+Sensor temperatury: układ z LM35DZ - DO ZMIANY
 Zasilacz impulsowy 230V AC / 24V DC: AST-PWR-7524
