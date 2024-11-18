@@ -32,7 +32,7 @@
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -21.59 45.72 270) (length 3.81) hide
+      (pin passive line (at -21.59 45.72 270) (length 3.81)
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
@@ -84,7 +84,7 @@
         (name "XOUT" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -17.78 45.72 270) (length 3.81) hide
+      (pin passive line (at -17.78 45.72 270) (length 3.81)
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -132,7 +132,7 @@
         (name "GPIO21" (effects (font (size 1.27 1.27))))
         (number "32" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -13.97 45.72 270) (length 3.81) hide
+      (pin passive line (at -13.97 45.72 270) (length 3.81)
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
@@ -172,7 +172,7 @@
         (name "GPIO29_ADC3" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -10.16 45.72 270) (length 3.81) hide
+      (pin passive line (at -10.16 45.72 270) (length 3.81)
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -200,7 +200,7 @@
         (name "USB_VDD" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -6.35 45.72 270) (length 3.81) hide
+      (pin passive line (at -6.35 45.72 270) (length 3.81)
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -208,7 +208,7 @@
         (name "GPIO3" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 11.43 45.72 270) (length 3.81) hide
+      (pin passive line (at 11.43 45.72 270) (length 3.81)
         (name "DVDD" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
