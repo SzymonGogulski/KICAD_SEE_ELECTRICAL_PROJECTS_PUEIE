@@ -1,4 +1,11 @@
-22645040078632534
+22665821096396587
+1-1825910-4
+TE_1-1825910-4
+
+
+0
+4
+4
 690-005-298-486
 EDAC_690-005-298-486
 
@@ -34,6 +41,20 @@ audio belton reverb
 0
 7
 7
+B4B-ZR_LF__SN_
+JST_B4B-ZR_LF__SN_
+
+
+0
+4
+4
+BK-18650-PC2
+BAT_BK-18650-PC2
+
+
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2512,6 +2533,13 @@ speaker CUI
 0
 2
 2
+CSTNE12M0GH5L000R0
+OSC_CSTNE12M0GH5L000R0
+
+
+0
+3
+3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62789,6 +62817,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LM2775DSGT
+SON50P200X200X80-9N
+
+
+0
+11
+11
+MBR120VLSFT1G
+DIOM3616X98N
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -93061,6 +93103,48 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+W25Q16JVUXIQ
+SON50P300X200X60-9N
+<b>USON 2x3x0.6-mm</b><br>
+
+0
+9
+9
+kondensatory
+1u-CAPC4532X229N
+1812(4532)_2024
+Capacitor
+0
+2
+2
+kondensatory
+2,2u-CAPC2012X140N
+KAM21KR72A474KU*
+Capacitor
+0
+2
+2
+kondensatory
+15p-CAPC1005X55N
+VJ0402 (C0G)
+Capacitor
+0
+2
+2
+kondensatory
+47u-CAPC2012X145N
+0805 (2012 metric)_2024-1
+Capacitor
+0
+2
+2
+kondensatory
+100n-CAPC1608X87N
+0603;1.6x0.8x0.8
+Capacitor
 0
 2
 2
