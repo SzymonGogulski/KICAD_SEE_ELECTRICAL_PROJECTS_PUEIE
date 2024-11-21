@@ -1,4 +1,11 @@
-22665821096396587
+22671017264222810
+1-1825910-4
+BLE_HM-BT4502
+
+
+0
+0
+0
 1-1825910-4
 TE_1-1825910-4
 
@@ -55,6 +62,13 @@ BAT_BK-18650-PC2
 0
 2
 2
+BLE_HM-BT4502
+BLE_HM-BT5402
+
+
+0
+11
+11
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -61662,6 +61676,13 @@ solder jumper open
 0
 5
 3
+LC709203FQH-04TWG
+DFN300X400X80-8N
+
+
+0
+9
+9
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

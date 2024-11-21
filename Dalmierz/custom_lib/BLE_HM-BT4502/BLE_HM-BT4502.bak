@@ -12,13 +12,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "BLE_HM-BT4502_0_1"
+    (symbol "BLE_HM-BT4502_1_1"
       (rectangle (start -10.16 -1.27) (end 10.16 -21.59)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "BLE_HM-BT4502_1_1"
       (text "BLE HM-BT4502\n" (at 0 -22.86 0)
         (effects (font (size 1.27 1.27)))
       )

@@ -176,7 +176,7 @@
         (name "IOVDD" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 21.59 45.72 270) (length 3.81)
+      (pin passive line (at 21.59 45.72 270) (length 3.81)
         (name "ADC_AVDD" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
