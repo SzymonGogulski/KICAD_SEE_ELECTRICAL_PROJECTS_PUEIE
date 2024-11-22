@@ -15,7 +15,7 @@
   (fp_circle (center -2.5 -1.5) (end -2.375 -1.5)
     (stroke (width 0.25) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 2ddc6aa0-1b90-4aaa-aed5-abaa0eb41ed0))
   (fp_rect (start -2.1 -1.2) (end 2.1 1.2)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Margin") (tstamp 645d99f8-bef2-434c-8d3b-2c1b1f5c8384))
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp ee6670a1-c9ca-40e7-b5c9-4dedda08a912))
   (pad "1" smd rect (at -1.4 -0.75) (size 0.9 0.3) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp f2e66c76-b8f2-4736-8e94-0fc31e7aa4be))
   (pad "2" smd rect (at -1.4 -0.25) (size 0.9 0.3) (layers "F.Cu" "F.Paste" "F.Mask")

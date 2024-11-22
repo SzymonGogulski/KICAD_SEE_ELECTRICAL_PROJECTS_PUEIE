@@ -3476,6 +3476,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a17d527-dd5f-4610-aadb-9d255c112e87)
   )
+  (label "SDA0" (at 86.36 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8211e3ce-f50d-4bda-b28b-148864a09cad)
+  )
   (label "BTN3" (at 203.2 156.21 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b2a1cb2-0622-461c-a2b2-eba18c8a48e1)
@@ -3491,6 +3495,10 @@
   (label "QSPI_SD0" (at 111.76 170.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9309c118-b0f3-4465-8b94-7f992864206f)
+  )
+  (label "SCL0" (at 81.28 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 97733045-23b3-4e70-8ca8-cb98d418f60b)
   )
   (label "QSPI_SS" (at 78.74 210.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4311,7 +4319,7 @@
   (symbol (lib_id "1-1825910-4:1-1825910-4") (at 60.96 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38426067-4735-4793-80cf-7ee777b968ab)
-    (property "Reference" "SW7_BOOTSEL1" (at 62.23 186.69 0)
+    (property "Reference" "SW7" (at 62.23 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1-1825910-4" (at 62.23 189.23 0)
@@ -4366,7 +4374,7 @@
     (instances
       (project "dalmierz"
         (path "/785c36ae-1f77-43ce-9999-38f24abdc22e"
-          (reference "SW7_BOOTSEL1") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -5145,7 +5153,7 @@
   )
 
   (symbol (lib_id "RP2040_CUSTOM:RP2040") (at 160.02 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7edd4e7e-9799-422b-a179-971bb23d71a8)
     (property "Reference" "U1" (at 162.2141 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
