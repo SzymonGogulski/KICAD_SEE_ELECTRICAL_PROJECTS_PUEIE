@@ -95,7 +95,7 @@
       )
     )
     (symbol "W25Q16JVUXIQ_1_0"
-      (pin power_out line (at -5.08 -15.24 0) (length 5.08)
+      (pin power_in line (at -5.08 -15.24 0) (length 5.08)
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "4" (effects (font (size 1.016 1.016))))
       )
