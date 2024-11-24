@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -9,7 +9,6 @@
     "hidden_nets": [
       "",
       "/BT_INTERRUPT",
-      "GND",
       "unconnected-(B1-GND-Pad3)",
       "unconnected-(B1-GND-Pad4)",
       "/BT_POWER_DOWN",
@@ -109,7 +108,7 @@
     "selection_filter": {
       "dimensions": false,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
@@ -117,7 +116,7 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -156,7 +155,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcdf33_7fffffff",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
