@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Strona-1" id="ITFV6ZwZZb2lDWU_6LcH">
-    <mxGraphModel dx="1400" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,9 +257,6 @@
         </mxCell>
         <mxCell id="ADZbkhmCHiRTHz0c5nEW-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LC709203F&lt;/font&gt;&lt;/b&gt; - wskaźnik poziomu naładowania akumulatora Li-Pol / Li-Ion - STEMMA QT / Qwiic - Adafruit 4712&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Address I2C: 0x0B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Przerysowujemy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="407" y="780" width="236" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="LbwyyAAWYQrGKJbbFRrg-35" value="&lt;div&gt;PYTANIA&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Czy musimy przerysowywać przetwornice?&lt;br&gt;&lt;/li&gt;&lt;li&gt;Czy możemy użyć gotowych przetwornic czy korzystać z narzędzia power supply designer texas instruments?&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;ZADANIA&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Wykonać rachunek prądu zakładając najwyższe obciążenie, sprawdzić wydolność prądową przetwornic&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ZAŁOŻENIA&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Urzyjemy dokumentacji Raspberry Pi Pico&lt;/li&gt;&lt;li&gt;Nie przerysowujemy konwertera LCD i Modułu BT&lt;/li&gt;&lt;li&gt;Przerysowujemy LC709203F&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="24" y="790" width="356" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
