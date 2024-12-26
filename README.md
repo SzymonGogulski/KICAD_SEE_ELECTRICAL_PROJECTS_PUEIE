@@ -25,6 +25,7 @@ To repozytorium zawiera dokumentację oraz projekty wykonane w ramach przedmiotu
 
 ### Schemat elektronicznych
 ![2](Zrzuty_ekranu/dalmierz.svg)
+Schemat lepiej widoczny w jasnym motywie GitHub.
 
 ### Płytka PCB
 ![3](Zrzuty_ekranu/dalmierz_PCB.png)
