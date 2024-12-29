@@ -110,7 +110,7 @@ This repository contains documentation and projects made as part of the course D
 
 ### Electronic diagram
 ![2](Zrzuty_ekranu/dalmierz.svg)
-Schemat lepiej widoczny w jasnym motywie GitHub.
+Diagram more visible in GitHub's light theme.
 
 ### PCB board
 ![3](Zrzuty_ekranu/dalmierz_PCB.png)
