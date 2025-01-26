@@ -2,20 +2,20 @@
 # Projektowanie Układów Elektrycznych i Elektronicznych
 To repozytorium zawiera dokumentację oraz projekty wykonane w ramach przedmiotu Projektowanie Układów Elektrycznych i Elektronicznych na 7 semestrze kierunku Automatyka i Robotyka na Politechnice Poznańskiej. Autorami projektów są Marcin Gałąska i Szymon Gogulski.
 ### Główne cele projektów
-1. <b> Opracowanie projektu układu elektrycznego sterującego mikroklimatem terrarium dla kameleona. </b>
-    - Układ steruje parametrami mikroklimatu terrarium.
-    - Automatyczna regulacja temperatury poprzez jedną dzienną oraz jedną nocną lampę grzewczą. 
-    - Automatyczna regulacja oświetlenia poprzez świetlówkę UVB.
-    - Automatyczna regulacja wilgotności poprzez zanurzony w zbiorniku wodnym fogger.
-    - Pomiar temperatury i wilgotności powietrza poprzez czujniki z przetwornikami.
-    - Informowanie o stanie mikroklimatu poprzez panel HMI.
-2. <b> Opracowanie projektu układu elektronicznego oraz projektu płytki PCB dalmierza laserowego. </b>
-    - Urządzenie wykonuje pomiar odległości czujnikiem laserowym i ultradźwiękowym.
-    - Urządzenie jest zasilane z ogniwa LI-ION lub z baterii 9V.
-    - Urządzenie posiada 6 przycisków.
-    - Urządzenie posiada wyświetlacz LCD 4x20.
-    - Urządzenie wykonuje pomiar naładowania akumulatora/ baterii.
-    - Urządzenie obsługuje transmisję bluetooth.
+1. <b&gt; Opracowanie projektu układu elektrycznego sterującego mikroklimatem terrarium dla kameleona. - Układ steruje parametrami mikroklimatu terrarium.---#------#---b&gt" class="hiddenSpellError">b&gt;
+- Układ steruje parametrami mikroklimatu terrarium.
+- Automatyczna regulacja temperatury poprzez jedną dzienną oraz jedną nocną lampę grzewczą.
+- Automatyczna regulacja oświetlenia poprzez świetlówkę UVB.
+- Automatyczna regulacja wilgotności poprzez zanurzony w zbiorniku wodnym fogger.
+- Pomiar temperatury i wilgotności powietrza poprzez czujniki z przetwornikami.
+- Informowanie o stanie mikroklimatu poprzez panel HMI.
+2. <b&gt; Opracowanie projektu układu elektronicznego oraz projektu płytki PCB dalmierza laserowego. - Urządzenie wykonuje pomiar odległości czujnikiem laserowym i ultradźwiękowym.---#------#---b&gt" class="hiddenSpellError">b&gt;
+- Urządzenie wykonuje pomiar odległości czujnikiem laserowym i ultradźwiękowym.
+- Urządzenie jest zasilane z ogniwa LI-ION lub z baterii 9V.
+- Urządzenie posiada 6 przycisków.
+- Urządzenie posiada wyświetlacz LCD 4x20.
+- Urządzenie wykonuje pomiar naładowania akumulatora/ baterii.
+- Urządzenie obsługuje transmisję bluetooth.
 ***
 # Dalmierz
 - Projekt opiera się o dokumentację mikroprocesora RP2040.
@@ -34,28 +34,28 @@ Schemat lepiej widoczny w jasnym motywie GitHub.
 ### Płytka PCB 3D
 ![3](Zrzuty_ekranu/dalmierz_3d.png)
 
-### Zasilanie 
+### Zasilanie
 1. W celu zasilenia układu wykorzystaliśmy ogniwo li-ion 18650.
 2. Układ składa się z dwóch przetwornic: BUCK-BOOST RT6150B-33GQW zapewniającej napięcie 3.3V oraz BOOST LM2775DSG zapewniającej napięcie 5V.
 3. Przed wybraniem przetwornic przeprowadziliśmy rachunek poboru prądu przy założeniu najwyższego obciążenia.
-4. W ramach monitorowania stanu naładowania ogniwa zastosowaliśmy moduł LC709203. Moduł ten umożliwia bierzące przekazywanie informacji o stanie ogniwa poprzez interface I2C do mikrokontrolera.
+4. W ramach monitorowania stanu naładowania ogniwa zastosowaliśmy moduł LC709203. Moduł ten umożliwia bieżące przekazywanie informacji o stanie ogniwa poprzez interface I2C do mikrokontrolera.
 5. Wejścia układu zostały zabezpieczone diodami Schottkiego na wypadek odwrotnego zamontowania ogniwa w gnieździe.
 
 ### Czujniki
 Czujniki odległości będą podłączane do układu poprzez konektory I2C
 
 ### Bluetooth
-W ramach możliwości zapisu pomiarów na urządzeniu zewnętrzym dodaliśmy moduł komunikacji bluetooth.
+W ramach możliwości zapisu pomiarów na urządzeniu zewnętrznym dodaliśmy moduł komunikacji bluetooth.
 
 ### Macierz przycisków / Wyświetlacz I2C LCD
-1. Jako interface użytkownika zastosowaliśmy macierz  sześciu przycisków oraz wyświetlacz I2C.
+1. Jako interface użytkownika zastosowaliśmy macierz sześciu przycisków oraz wyświetlacz I2C.
 2. Na płytce zamontowaliśmy osobny konektory I2C umożliwiający podłączenie wyświetlacza.
-3. W celu uniknięcia drgań styków lepszym rozwiązanie było by zastosowanie dodatkowych filtrów RC pomiędzy przyciskami oraz mikrokontrolerem.
+3. W celu uniknięcia drgań styków lepszym rozwiązanie byłoby zastosowanie dodatkowych filtrów RC pomiędzy przyciskami oraz mikrokontrolerem.
 
 ### RP2040, pamięć Flash i oscylator
 Sercem układu jest mikrokontroler RP2040, sugerowany schemat mikrokontrolera, pamięci flash i oscylatora kwarcowego został wykorzystany z ogólnodostępnej dokumentacji.
 ### Programowanie
-Wejści USB micro B zostało aby umożliwić bierzący rozwój oprogramowania.
+Wejście USB micro B zostało dodane, aby umożliwić bieżący rozwój oprogramowania.
 
 ***
 
@@ -86,20 +86,20 @@ Elementem informującym użytkownika o parametrach mikroklimatu terrarium jest p
 # Design of Electrical and Electronic Systems
 This repository contains documentation and projects made as part of the course Design of Electrical and Electronic Systems in the 7th semester of the Automation and Robotics major at the Poznań University of Technology. The authors of the projects are Marcin Gałąska and Szymon Gogulski.
 ### Main project goals
-1. <b> Development of an electrical system controlling the microclimate of a chameleon terrarium. </b>
-    - The system controls the parameters of the terrarium microclimate.
-    - Automatic temperature control using one daytime and one nighttime heating lamp.
-    - Automatic lighting control using a UVB fluorescent lamp.
-    - Automatic humidity control using a fogger immersed in the water tank.
-    - Measurement of air temperature and humidity using sensors with transducers.
-    - Information about the microclimate status using the HMI panel.
-2. <b> Development of an electronic circuit and a PCB design for a laser rangefinder. </b>
-    - The device measures distance with a laser and ultrasonic sensor.
-    - The device is powered by a LI-ION cell or a 9V battery.
-    - The device has 6 buttons.
-    - The device has a 4x20 LCD display.
-    - The device measures the battery charge.
-    - The device supports Bluetooth transmission.
+1. <b&gt; Development of an electrical system controlling the microclimate of a chameleon terrarium. - The system controls the parameters of the terrarium microclimate.---#------#---b&gt" class="hiddenSpellError">b&gt;
+- The system controls the parameters of the terrarium microclimate.
+- Automatic temperature control using one daytime and one nighttime heating lamp.
+- Automatic lighting control using a UVB fluorescent lamp.
+- Automatic humidity control using a fogger immersed in the water tank.
+- Measurement of air temperature and humidity using sensors with transducers.
+- Information about the microclimate status using the HMI panel.
+2. <b&gt; Development of an electronic circuit and a PCB design for a laser rangefinder. - The device measures distance with a laser and ultrasonic sensor.---#------#---b&gt" class="hiddenSpellError">b&gt;
+- The device measures distance with a laser and ultrasonic sensor.
+- The device is powered by a LI-ION cell or a 9V battery.
+- The device has 6 buttons.
+- The device has a 4x20 LCD display.
+- The device measures the battery charge.
+- The device supports Bluetooth transmission.
 ***
 # Rangefinder
 - The project is based on the RP2040 microprocessor documentation.
@@ -169,6 +169,3 @@ The element informing the user about the parameters of the terrarium microclimat
 
 ### Switchboard
 ![3](Zrzuty_ekranu/terrarium_szafa.png)
-
-
-
